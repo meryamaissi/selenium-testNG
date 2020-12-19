@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="88248" started-at="2020-12-19T09:11:52Z" finished-at="2020-12-19T09:13:20Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="88248" started-at="2020-12-19T09:11:52Z" finished-at="2020-12-19T09:13:20Z">
+      <class name="com.todos.tests.AddTodoTests">
+        <test-method status="PASS" signature="setupTest(java.lang.String)[pri:0, instance:com.todos.tests.AddTodoTests@7adda9cc]" name="setupTest" is-config="true" duration-ms="72294" started-at="2020-12-19T10:11:52Z" finished-at="2020-12-19T10:13:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="iCanAddTodo()[pri:0, instance:com.todos.tests.AddTodoTests@7adda9cc]" name="iCanAddTodo" duration-ms="1156" started-at="2020-12-19T10:13:04Z" finished-at="2020-12-19T10:13:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iCanAddTodo -->
+        <test-method status="PASS" signature="cleanTest()[pri:0, instance:com.todos.tests.AddTodoTests@7adda9cc]" name="cleanTest" is-config="true" duration-ms="14780" started-at="2020-12-19T10:13:06Z" finished-at="2020-12-19T10:13:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanTest -->
+      </class> <!-- com.todos.tests.AddTodoTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
